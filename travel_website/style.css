@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    /* border: 2px solid black; */
+    background-image: url("./main_container.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 8px;
+}
+.container h1{
+    font-weight: bold;
+    font-family: 'Nova Square', sans-serif;
+    color: whitesmoke;
+}
+.container p{
+    font-weight: bold;
+    
+}
+.container input,textarea{
+   outline: none;
+   border-radius: 8px;
+   border: none;
+}
