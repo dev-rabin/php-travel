@@ -21,8 +21,16 @@
     font-weight: bold;
     
 }
-.container input,textarea{
+.button{
    outline: none;
    border-radius: 8px;
    border: none;
+}
+.button:hover{
+    color: green;
+    transition: all;
+    cursor: pointer;
+}
+.submit-msg{
+    color: green;
 }
