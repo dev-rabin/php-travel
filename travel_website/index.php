@@ -1,7 +1,7 @@
 <!-- INSERT INTO `trip_details` (`sno`, `name`, `email`, `time`) VALUES ('1', 'Robin', 'test@gmail.com', current_timestamp()); -->
 
 <?php
-$insert = false;  
+$insert = false;
 // Connecting to the Database
 if (isset($_POST['name'])) {
   
@@ -39,6 +39,7 @@ if($result){
 }
 else{
     echo "The record was not inserted successfully because of this error ---> ". mysqli_error($conn);
+    
 }
 $conn->close();
 }
@@ -67,9 +68,7 @@ $conn->close();
         <?php
         if ($insert == true) {
             echo "<p class='submit-msg'>Thanks! For Submitting this Form</p>";
-        }
-        
-        ?>
+        }?>
         <div class="row">
             <form action="index.php" method="post">
 
